@@ -2,7 +2,7 @@
   "name": "@ttungbmt/react-hooks",
   "version": "0.0.3",
   "description": "React Hooks",
-  "repository": "https://github.com/novaworld/js-react-hook",
+  "repository": "https://github.com/novaworld/react-hooks",
   "main": "dist/react-hooks.cjs.js",
   "module": "dist/react-hooks.es.js",
   "unpkg": "dist/react-hooks.umd.js",
