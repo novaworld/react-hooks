@@ -1,0 +1,47 @@
+{
+  "name": "@ttungbmt/react-hooks",
+  "version": "0.0.3",
+  "description": "React Hooks",
+  "repository": "https://github.com/novaworld/js-react-hook",
+  "main": "dist/react-hooks.cjs.js",
+  "module": "dist/react-hooks.es.js",
+  "unpkg": "dist/react-hooks.umd.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "Truong Thanh Tung <ttungbmt@gmail.com> (https://github.com/ttungbmt)",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -c -w",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production",
+    "push": "nodemon -x yalc push"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "copy-to-clipboard": "^3.2.0",
+    "fuse.js": "^3.4.5",
+    "lodash-es": "^4.17.15",
+    "react": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-swipeable": "^5.4.0",
+    "react-use": "^10.3.0",
+    "redux": "^4.0.4",
+    "redux-starter-kit": "^0.6.3",
+    "use-events": "^1.3.0",
+    "use-immer": "^0.3.3",
+    "use-react-router": "^1.0.7"
+  },
+  "devDependencies": {
+    "@ttungbmt/module-config": "^0.0.17"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sideEffects": false
+}
